@@ -6,11 +6,12 @@ import {BoxObjectModelScreen} from './src/screens/BoxObjectModelScreen';
 import { DimensionesScreen } from './src/screens/DimensionesScreen';
 import { PosicionScreen } from './src/screens/PosicionScreen';
 import { FlexScreen } from './src/screens/FlexScreen';
+import { TareaScreen } from './src/screens/TareaScreen';
 
 export const App = () => {
   return (
     <SafeAreaView style={{flex:1}}>
-      <FlexScreen />
+      <TareaScreen />
     </SafeAreaView>
   );
 };
