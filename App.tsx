@@ -5,11 +5,12 @@ import {ContadorScreen} from './src/screens/ContadorScreen';
 import {BoxObjectModelScreen} from './src/screens/BoxObjectModelScreen';
 import { DimensionesScreen } from './src/screens/DimensionesScreen';
 import { PosicionScreen } from './src/screens/PosicionScreen';
+import { FlexScreen } from './src/screens/FlexScreen';
 
 export const App = () => {
   return (
     <SafeAreaView style={{flex:1}}>
-      <PosicionScreen />
+      <FlexScreen />
     </SafeAreaView>
   );
 };

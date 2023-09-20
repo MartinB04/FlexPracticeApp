@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     borderWidth: 5,
     borderColor: 'black',
     // hace top, bottom, right y left 0 ademas position absolute Bv
-    //deestructura de styleSheet Bv
+    //deestructura de styleSheet Bv 
     ...StyleSheet.absoluteFillObject, 
   },
 });
