@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     },
     cajaNaranja: {
         width:100,
-        height:100,
+        flex:1,
         borderColor: "white",
         borderWidth: 10,
         backgroundColor: "orange",
