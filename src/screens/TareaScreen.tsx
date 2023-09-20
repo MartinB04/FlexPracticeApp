@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: "#37d47e",
         justifyContent:"center",
+        flexDirection:'column'
 
     },
     cajaMorada: {
@@ -24,6 +25,7 @@ const styles = StyleSheet.create({
         borderColor: "white",
         borderWidth: 10,
         backgroundColor: "purple",
+        alignSelf:'flex-end',
     },
     cajaNaranja: {
         width:100,
@@ -33,11 +35,12 @@ const styles = StyleSheet.create({
         backgroundColor: "orange",
     },
     cajaAzul: {
-        width:"100%",
+        width:100,
         height:100,
         borderColor: "white",
         borderWidth: 10,
         backgroundColor: "blue",
+        alignSelf:'center',
         
     },
 })
